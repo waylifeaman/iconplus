@@ -18,10 +18,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [postControll::class, 'dashboard']);
-Route::get('/dashboard', [postControll::class, 'dashboard']);
-
-Route::get('/dataMahasiswa', [postControll::class, 'dataMahasiswa']);
-Route::get('/jurusan', [postControll::class, 'jurusan']);
-Route::get('/jurusan/{jurusans:nama}', [postControll::class, 'dataPadajurusan']);
-
-Route::get('/karya', [postControll::class, 'daftarKarya']);
+Route::get('/service', [postControll::class, 'service']);
+Route::get('/hargapaket', [postControll::class, 'hargapaket']);
+Route::get('/petawilayah', [postControll::class, 'petawilayah']);

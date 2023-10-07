@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Work+Sans:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap');
+
+.atas {
+    height: 5rem;
+
+}
+
+.jumbotron {
+    /* background-image: linear-gradient(to left, white, transparent), url(/img/coverhargapaket.jpeg); */
+    background-image: url("/img/coverhargapaket.jpeg");
+    position: static;
+    display: block;
+    height: 35rem;
+    margin: auto;
+    top: 5%;
+    background-size: cover;
+}
+
+
+/* .jumbotron img {
+    margin: auto;
+    width: 100%;
+} */
+.jumbotron .jumsmall {
+    display: none;
+}
+
+.jumbotron .row .col .jum {
+    margin-top: 15%;
+    text-align: center;
+    padding-top: 0;
+    color: white;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    padding-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'arial', sans-serif;
+}
+
+.profperusahaan {
+    height: 400px;
+    background-size: cover;
+    background-image: url('/img/home-tiga.jpg');
+
+}
+
+
+
+.profperusahaan p {
+    margin-top: 6rem;
+    padding-left: 2rem;
+    text-align: justify;
+    font-family: 'work sans', sans-serif;
+}
+
+.profperusahaan .profimg {
+    margin-top: 10px;
+}
+
+.profperusahaan .row .col .detail-profil a {
+    text-decoration: none;
+    color: #00293c;
+}
+
+.profperusahaan .row .col .detail-profil {
+    /* background-color: #192e50; */
+    margin: auto;
+    height: 40px;
+    width: 30%;
+    border: solid #00293c;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.5s;
+    color: #00293c;
+    display: block;
+    position: static;
+}
+
+.profperusahaan .row .col .detail-profil {
+    text-align: center;
+    padding-top: 7px;
+
+}
+
+.profperusahaan .row .col .detail-profil:hover {
+    /* background-color: #c6eefd; */
+    cursor: pointer;
+    color: #00293c;
+    font-weight: bold;
+    border-width: bold;
+
+}
+
+
+
+/*  Two */
+.two {
+    width: 95%;
+    position: static;
+    margin: auto;
+}
+
+.two .row .col {
+    margin: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.two .row .col img {
+    position: static;
+    width: 100%;
+    overflow: auto;
+}
+
+.two .row .col h5 {
+    text-align: center;
+    color: #00293c;
+    font-family: 'work sans', sans-serif;
+    font-weight: bold;
+}
+
+.two .row .col p {
+    text-align: center;
+    color: #00293c;
+    font-family: 'work sans', sans-serif;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* three */
+.three {
+    position: static;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+}
+
+.three h3 {
+    padding-top: 20px;
+    font-family: 'work sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.three .row #content {
+    background-color: white;
+    text-align: justify;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.three .row .col h5 {
+    text-align: center;
+    color: #00293c;
+    font-weight: bold;
+}
+
+.three .row .col p {
+    text-align: center;
+}
+
+.three .row .col button {
+    margin: auto;
+    justify-content: center;
+    color: #00293c;
+}
+
+.three .row .col .pesan {
+    background-color: #192e50;
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.5s;
+    color: white;
+    display: block;
+    position: static;
+}
+
+.three .row .col .pesan p {
+    text-align: center;
+    padding-top: 7px;
+}
+
+.three .row .col .pesan:hover {
+    background-color: #c6eefd;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+
+}
+
+.three .selengkapnya {
+    text-align: center;
+}
+
+.three .selengkapnya a {
+    color: #00293c;
+    text-decoration: none;
+}
+
+.three .selengkapnya a:hover {
+    text-align: center;
+    text-decoration: none;
+    color: #192e50;
+    font-weight: bold;
+}
+
+/* Keunggulan */
+.keunggulan {
+    margin-bottom: 10px;
+}
+
+.keunggulan h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'work sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.keunggulan .row .col {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 5px;
+    font-family: 'work sans', sans-serif;
+
+}
+
+.keunggulan .row .col h5 {
+    font-family: 'work sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.keunggulan .row .icon {
+    margin: auto;
+    text-align: center;
+    background: #192e50;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.keunggulan .row .col .icon i {
+    margin: auto;
+    margin-top: 50%;
+    color: white;
+}
+
+
+.keunggulan .row .col p {
+    text-align: justify;
+
+}
+
+/* END HOME */
+
+
+/* HALAMAN Harga Paket */
+.hargaPaket {
+    font-family: 'work sans', sans-serif;
+    background-image: url("/img/coverhargapaket.jpeg");
+    background-size: cover;
+    margin: auto;
+    display: block;
+    height: 400px;
+    position: static;
+}
+
+.hargaPaket .paket {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    padding-left: 30px;
+}
+
+.hargaPaket p {
+    padding-left: 25px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: "arial", sans-serif;
+}
+
+/* First */
+.har-first {
+    position: static;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+}
+
+.har-first h3 {
+    padding-top: 20px;
+    font-family: 'work sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.har-first .jud p {
+    text-align: center;
+}
+
+.har-first .row #content {
+    background-color: white;
+    text-align: justify;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.har-first .row .col h5 {
+    text-align: center;
+    color: #00293c;
+    font-weight: bold;
+}
+
+.har-first .row .col p {
+    text-align: center;
+}
+
+.har-first .row .col button {
+    margin: auto;
+    justify-content: center;
+    color: #00293c;
+}
+
+.har-first .row .col .pesan {
+    background-color: #192e50;
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.5s;
+    color: white;
+    display: block;
+    position: static;
+}
+
+.har-first .row .col .pesan p {
+    text-align: center;
+    padding-top: 7px;
+}
+
+.har-first .row .col .pesan:hover {
+    background-color: #c6eefd;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+
+}
+
+.har-first .selengkapnya {
+    text-align: center;
+}
+
+.har-first .selengkapnya a {
+    color: #00293c;
+    text-decoration: none;
+}
+
+.har-first .selengkapnya a:hover {
+    text-align: center;
+    text-decoration: none;
+    color: #192e50;
+    font-weight: bold;
+}
+
+/* END HARGA PAKET */
+
+/* Halaman Service */
+.service {
+    font-family: 'work sans', sans-serif;
+    background-image: url("/img/service/coverservice.jpg");
+    background-size: cover;
+    margin: auto;
+    display: block;
+    height: 400px;
+    position: static;
+}
+
+.service .paket {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    padding-left: 30px;
+}
+
+.service p {
+    padding-left: 25px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: "arial", sans-serif;
+}
+
+/* First */
+.serviceid {
+    margin-bottom: 30px;
+}
+
+.serviceid .two .jud h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'work sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.serviceid .two .jud p {
+    text-align: center;
+    font-family: 'work sans', sans-serif;
+}
+
+
+.serviceid .row .col {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: 'work sans', sans-serif;
+
+}
+
+.serviceid .row .col h5 {
+    font-family: 'work sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.serviceid .row .col p {
+    text-align: justify;
+
+}
+
+/* Two*/
+.two {
+    position: static;
+    width: 100%;
+    background-color: rgba(248, 6, 6, 0);
+}
+
+.two .row .col button {
+    margin: auto;
+    justify-content: center;
+    color: #00293c;
+}
+
+.two .row .col .selanjutnya {
+    background-color: #192e50;
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.5s;
+    color: white;
+    display: block;
+    position: static;
+}
+
+.two .row .col .selanjutnya a {
+    text-align: center;
+    padding-top: 7px;
+    color: white;
+    font-family: 'work sans', sans-serif;
+    text-decoration: none;
+}
+
+.two .row .col .selanjutnya a:hover {
+    background-color: #c6eefd;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-family: 'work sans', sans-serif;
+    text-decoration: none;
+
+}
+
+/*END Service*/
+
+/* To Service Iconect*/
+.iconect-group {
+    position: static;
+    width: 100%;
+    background-color: rgba(248, 6, 6, 0);
+}
+
+.iconect-group .row .col button {
+    margin: auto;
+    justify-content: center;
+    color: #022c3f;
+}
+
+.iconect-group .nextpage {
+    background-color: #192e50;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.iconect-group .row .col .nextpage a {
+    text-align: center;
+    padding-top: 7px;
+    color: white;
+    font-family: 'work sans', sans-serif;
+    text-decoration: none;
+}
+
+.iconect-group .nextpage a:hover {
+    background-color: #c6eefd;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-family: 'work sans', sans-serif;
+    text-decoration: none;
+}
+
+/*Isi*/
+.isi {
+    margin-bottom: 30px;
+}
+
+.isi .jud h3 {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    padding-left: 30px;
+}
+
+.isi .jud p {
+    padding-left: 25px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: "arial", sans-serif;
+}
+
+/* End Service */

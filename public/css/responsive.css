@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Work+Sans:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap');
+
+/* RESPONSIVE TAMPILAN TABLET */
+@media (max-width: 992px) {
+    .atas {
+        height: 6rem;
+    }
+
+    .jumbotron {
+        background-image: url('/img/plus.jpg');
+        background-size: cover;
+        margin: auto;
+        display: block;
+        height: 250px;
+    }
+
+    .jumbotron .jum {
+        display: none;
+        text-align: center;
+    }
+
+    .jumbotron .jumsmall {
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+        color: white;
+        font-size: 15px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 25px;
+    }
+
+    .jumbotron p {
+        padding-left: 25px;
+        font-size: 12px;
+        text-align: center;
+        color: white;
+        font-family: 'arial', sans-serif;
+    }
+
+    .profperusahaan {
+        background-image: linear-gradient(to left, transparent, white), url('/img/home-tiga.jpg');
+        background-size: contain;
+        margin: auto;
+        width: 100%;
+        height: 400px;
+    }
+
+    /* .profperusahaan h2 {
+        margin-top: 5px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    .profperusahaan .row #hilang {
+        display: none;
+    }
+
+    .profperusahaan .row .col p {
+
+        margin-top: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 3%;
+        text-align: justify;
+    }
+
+    .profperusahaan .row .col .detail-profil {
+        height: 30px;
+        width: 25%;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+    } */
+
+
+    .profperusahaan .profimg {
+        margin-top: 10px;
+    }
+
+}
+
+/* Resposnsive TAMPILAN MOBILE*/
+@media (max-width: 576px) {
+    .atas {
+        height: 7rem;
+    }
+
+    .jumbotron {
+        background-size: cover;
+        margin: auto;
+        display: block;
+        position: static;
+    }
+
+    .jumbotron .jum {
+        display: none;
+    }
+
+    .jumbotron .row .col p {
+        font-size: 12px;
+        text-align: center;
+        color: white;
+        font-family: 'work sans', sans-serif;
+    }
+
+    .juumbotron .row .col .jumsmall {
+        display: block;
+        text-align: center;
+    }
+
+    /* Bawah Jumbotron */
+    .profperusahaan h2 {
+        margin-top: 10rem;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .profperusahaan p {
+        margin-top: 20px;
+        padding-left: 20px;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .profperusahaan {
+        background-image: linear-gradient(to left, transparent, white), url('/img/home-tiga.jpg');
+        background-size: contain;
+        margin: auto;
+        width: 100%;
+        height: 200px;
+    }
+
+    .profperusahaan h2 {
+        margin-top: 5px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    .profperusahaan .row #hilang {
+        display: none;
+    }
+
+    .profperusahaan .row .col p {
+
+        margin-top: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 3%;
+        text-align: justify;
+    }
+
+    .profperusahaan .row .col .detail-profil {
+        height: 30px;
+        width: 25%;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    /* Two Small */
+    .two .row #col-small h5 {
+        font-size: 15px;
+    }
+
+    .two .row #col-small p {
+        font-size: 12px;
+    }
+
+    /* Three Paket Internet Small*/
+    .three .row #content {
+        width: 50%;
+        margin: 2px;
+    }
+
+    .three .row #hilang {
+        width: 0;
+        display: block;
+    }
+
+    .three .row .col .hide {
+
+        display: none;
+    }
+
+    .three .row .col img {
+        display: flex;
+        float: left;
+        width: 100%;
+    }
+
+    .three .row .col p {
+        display: flex;
+
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .three .row .col .pesan {
+        background-color: #192e50;
+        width: 100%;
+        padding: 0px 5px 0px 5px;
+        height: 50px;
+        border-radius: 15px;
+        text-align: center;
+        transition: all 0.5s;
+        color: white;
+        display: block;
+        position: static;
+
+    }
+
+    .three .row .col .pesan p {
+        font-size: 12px;
+
+    }
+
+
+    /* Four Keunggulan small  */
+    .keunggulan .row .col {
+        height: 20rex;
+    }
+
+    .keunggulan .row .col i {
+        font-size: 25px;
+    }
+
+    .keunggulan .row .col .icon {
+        margin-top: 20%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .keunggulan .row .col p {
+        font-size: 12px;
+        display: none;
+        text-align: justify;
+    }
+}
